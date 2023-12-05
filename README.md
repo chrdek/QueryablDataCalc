@@ -44,5 +44,5 @@ Previous/New methods Ported to IQueryable syntax displayed in table below:
 
 <br>
 
-Online project located at [nuget gallery.](https://www.nuget.org/packages/LinqPath/)
+Online project located at [nuget gallery.](#)
 
