@@ -49,5 +49,5 @@ jobs:
         run: |
           dotnet tool install --global dotnet-coverage
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"chrdek_QueryablDataCalc" /o:"chrdek" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build DataCalc.csproj /t:Rebuild /p:Configuration=Debug
+          dotnet build .\Queryabl\Queryabl\DataCalc.csproj /t:Rebuild /p:Configuration=Debug
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
