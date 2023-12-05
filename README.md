@@ -25,10 +25,12 @@ Most parts of the re-written source are meant to provide a more fluent linq-like
 
 Methods Ported displayed in table below:
 
+➡️ 
+
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-|AsNumericTuples()↗️ | FilterNumerics() |
-|               ➡️  ↘️ | FilterNumerics(predicate) |
+|AsNumericTuples()↗️ | FilterNumerics() FilterNumerics(predicate)  |
+|                ↘️ | |
 
 </div>
 
