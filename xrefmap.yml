@@ -1,0 +1,170 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Queryabl
+  name: Queryabl
+  href: docs/Queryabl.html
+  commentId: N:Queryabl
+  fullName: Queryabl
+  nameWithType: Queryabl
+- uid: Queryabl.DataCalc
+  name: DataCalc
+  href: docs/Queryabl.DataCalc.html
+  commentId: T:Queryabl.DataCalc
+  fullName: Queryabl.DataCalc
+  nameWithType: DataCalc
+- uid: Queryabl.DataCalc.CollEvenLength*
+  name: CollEvenLength
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_CollEvenLength_
+  commentId: Overload:Queryabl.DataCalc.CollEvenLength
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.CollEvenLength
+  nameWithType: DataCalc.CollEvenLength
+- uid: Queryabl.DataCalc.CollEvenLength``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name: CollEvenLength<T>(IEnumerable<IEnumerable<T>>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_CollEvenLength__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  commentId: M:Queryabl.DataCalc.CollEvenLength``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name.vb: CollEvenLength(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  fullName: Queryabl.DataCalc.CollEvenLength<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: Queryabl.DataCalc.CollEvenLength(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T)))
+  nameWithType: DataCalc.CollEvenLength<T>(IEnumerable<IEnumerable<T>>)
+  nameWithType.vb: DataCalc.CollEvenLength(Of T)(IEnumerable(Of IEnumerable(Of T)))
+- uid: Queryabl.DataCalc.CollEvenLength``1(System.Linq.IQueryable{System.Collections.Generic.IEnumerable{``0}})
+  name: CollEvenLength<T>(IQueryable<IEnumerable<T>>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_CollEvenLength__1_System_Linq_IQueryable_System_Collections_Generic_IEnumerable___0___
+  commentId: M:Queryabl.DataCalc.CollEvenLength``1(System.Linq.IQueryable{System.Collections.Generic.IEnumerable{``0}})
+  name.vb: CollEvenLength(Of T)(IQueryable(Of IEnumerable(Of T)))
+  fullName: Queryabl.DataCalc.CollEvenLength<T>(System.Linq.IQueryable<System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: Queryabl.DataCalc.CollEvenLength(Of T)(System.Linq.IQueryable(Of System.Collections.Generic.IEnumerable(Of T)))
+  nameWithType: DataCalc.CollEvenLength<T>(IQueryable<IEnumerable<T>>)
+  nameWithType.vb: DataCalc.CollEvenLength(Of T)(IQueryable(Of IEnumerable(Of T)))
+- uid: Queryabl.DataCalc.FilterNumerics*
+  name: FilterNumerics
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FilterNumerics_
+  commentId: Overload:Queryabl.DataCalc.FilterNumerics
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.FilterNumerics
+  nameWithType: DataCalc.FilterNumerics
+- uid: Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0})
+  name: FilterNumerics<T>(IEnumerable<T>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FilterNumerics__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: FilterNumerics(Of T)(IEnumerable(Of T))
+  fullName: Queryabl.DataCalc.FilterNumerics<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Queryabl.DataCalc.FilterNumerics(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: DataCalc.FilterNumerics<T>(IEnumerable<T>)
+  nameWithType.vb: DataCalc.FilterNumerics(Of T)(IEnumerable(Of T))
+- uid: Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name: FilterNumerics<T>(IEnumerable<T>, Func<T, bool>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FilterNumerics__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Boolean__
+  commentId: M:Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})
+  name.vb: FilterNumerics(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+  fullName: Queryabl.DataCalc.FilterNumerics<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, bool>)
+  fullName.vb: Queryabl.DataCalc.FilterNumerics(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, Boolean))
+  nameWithType: DataCalc.FilterNumerics<T>(IEnumerable<T>, Func<T, bool>)
+  nameWithType.vb: DataCalc.FilterNumerics(Of T)(IEnumerable(Of T), Func(Of T, Boolean))
+- uid: Queryabl.DataCalc.FreqObjsOccur*
+  name: FreqObjsOccur
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FreqObjsOccur_
+  commentId: Overload:Queryabl.DataCalc.FreqObjsOccur
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.FreqObjsOccur
+  nameWithType: DataCalc.FreqObjsOccur
+- uid: Queryabl.DataCalc.FreqObjsOccur``1(System.Linq.IQueryable{``0})
+  name: FreqObjsOccur<T>(IQueryable<T>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FreqObjsOccur__1_System_Linq_IQueryable___0__
+  commentId: M:Queryabl.DataCalc.FreqObjsOccur``1(System.Linq.IQueryable{``0})
+  name.vb: FreqObjsOccur(Of T)(IQueryable(Of T))
+  fullName: Queryabl.DataCalc.FreqObjsOccur<T>(System.Linq.IQueryable<T>)
+  fullName.vb: Queryabl.DataCalc.FreqObjsOccur(Of T)(System.Linq.IQueryable(Of T))
+  nameWithType: DataCalc.FreqObjsOccur<T>(IQueryable<T>)
+  nameWithType.vb: DataCalc.FreqObjsOccur(Of T)(IQueryable(Of T))
+- uid: Queryabl.DataCalc.FreqOccur*
+  name: FreqOccur
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FreqOccur_
+  commentId: Overload:Queryabl.DataCalc.FreqOccur
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.FreqOccur
+  nameWithType: DataCalc.FreqOccur
+- uid: Queryabl.DataCalc.FreqOccur``1(System.Linq.IQueryable{``0})
+  name: FreqOccur<T>(IQueryable<T>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_FreqOccur__1_System_Linq_IQueryable___0__
+  commentId: M:Queryabl.DataCalc.FreqOccur``1(System.Linq.IQueryable{``0})
+  name.vb: FreqOccur(Of T)(IQueryable(Of T))
+  fullName: Queryabl.DataCalc.FreqOccur<T>(System.Linq.IQueryable<T>)
+  fullName.vb: Queryabl.DataCalc.FreqOccur(Of T)(System.Linq.IQueryable(Of T))
+  nameWithType: DataCalc.FreqOccur<T>(IQueryable<T>)
+  nameWithType.vb: DataCalc.FreqOccur(Of T)(IQueryable(Of T))
+- uid: Queryabl.DataCalc.Select*
+  name: Select
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_Select_
+  commentId: Overload:Queryabl.DataCalc.Select
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.Select
+  nameWithType: DataCalc.Select
+- uid: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Func{System.String,System.Boolean}[])
+  name: SelectIntMatrix(IQueryable<string>, params Func<string, bool>[])
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_SelectIntMatrix_System_Linq_IQueryable_System_String__System_Func_System_String_System_Boolean____
+  commentId: M:Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Func{System.String,System.Boolean}[])
+  name.vb: SelectIntMatrix(IQueryable(Of String), ParamArray Func(Of String, Boolean)())
+  fullName: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable<string>, params System.Func<string, bool>[])
+  fullName.vb: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable(Of String), ParamArray System.Func(Of String, Boolean)())
+  nameWithType: DataCalc.SelectIntMatrix(IQueryable<string>, params Func<string, bool>[])
+  nameWithType.vb: DataCalc.SelectIntMatrix(IQueryable(Of String), ParamArray Func(Of String, Boolean)())
+- uid: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Int32)
+  name: SelectIntMatrix(IQueryable<string>, int)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_SelectIntMatrix_System_Linq_IQueryable_System_String__System_Int32_
+  commentId: M:Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Int32)
+  name.vb: SelectIntMatrix(IQueryable(Of String), Integer)
+  fullName: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable<string>, int)
+  fullName.vb: Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable(Of String), Integer)
+  nameWithType: DataCalc.SelectIntMatrix(IQueryable<string>, int)
+  nameWithType.vb: DataCalc.SelectIntMatrix(IQueryable(Of String), Integer)
+- uid: Queryabl.DataCalc.SelectIntMatrix*
+  name: SelectIntMatrix
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_SelectIntMatrix_
+  commentId: Overload:Queryabl.DataCalc.SelectIntMatrix
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.SelectIntMatrix
+  nameWithType: DataCalc.SelectIntMatrix
+- uid: Queryabl.DataCalc.Select``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name: Select<TSource, T>(IQueryable<TSource>, Expression<Func<TSource, T>>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_Select__2_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:Queryabl.DataCalc.Select``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name.vb: Select(Of TSource, T)(IQueryable(Of TSource), Expression(Of Func(Of TSource, T)))
+  fullName: Queryabl.DataCalc.Select<TSource, T>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, T>>)
+  fullName.vb: Queryabl.DataCalc.Select(Of TSource, T)(System.Linq.IQueryable(Of TSource), System.Linq.Expressions.Expression(Of System.Func(Of TSource, T)))
+  nameWithType: DataCalc.Select<TSource, T>(IQueryable<TSource>, Expression<Func<TSource, T>>)
+  nameWithType.vb: DataCalc.Select(Of TSource, T)(IQueryable(Of TSource), Expression(Of Func(Of TSource, T)))
+- uid: Queryabl.DataCalc.Where*
+  name: Where
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_Where_
+  commentId: Overload:Queryabl.DataCalc.Where
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.Where
+  nameWithType: DataCalc.Where
+- uid: Queryabl.DataCalc.WhereDist*
+  name: WhereDist
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_WhereDist_
+  commentId: Overload:Queryabl.DataCalc.WhereDist
+  isSpec: "True"
+  fullName: Queryabl.DataCalc.WhereDist
+  nameWithType: DataCalc.WhereDist
+- uid: Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)
+  name: WhereDist<T>(IQueryable<string>, string, int)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_WhereDist__1_System_Linq_IQueryable_System_String__System_String_System_Int32_
+  commentId: M:Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)
+  name.vb: WhereDist(Of T)(IQueryable(Of String), String, Integer)
+  fullName: Queryabl.DataCalc.WhereDist<T>(System.Linq.IQueryable<string>, string, int)
+  fullName.vb: Queryabl.DataCalc.WhereDist(Of T)(System.Linq.IQueryable(Of String), String, Integer)
+  nameWithType: DataCalc.WhereDist<T>(IQueryable<string>, string, int)
+  nameWithType.vb: DataCalc.WhereDist(Of T)(IQueryable(Of String), String, Integer)
+- uid: Queryabl.DataCalc.Where``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name: Where<TSource>(IQueryable<TSource>, Expression<Func<TSource, bool>>)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_Where__1_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
+  commentId: M:Queryabl.DataCalc.Where``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
+  name.vb: Where(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, Boolean)))
+  fullName: Queryabl.DataCalc.Where<TSource>(System.Linq.IQueryable<TSource>, System.Linq.Expressions.Expression<System.Func<TSource, bool>>)
+  fullName.vb: Queryabl.DataCalc.Where(Of TSource)(System.Linq.IQueryable(Of TSource), System.Linq.Expressions.Expression(Of System.Func(Of TSource, Boolean)))
+  nameWithType: DataCalc.Where<TSource>(IQueryable<TSource>, Expression<Func<TSource, bool>>)
+  nameWithType.vb: DataCalc.Where(Of TSource)(IQueryable(Of TSource), Expression(Of Func(Of TSource, Boolean)))

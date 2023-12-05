@@ -1,0 +1,54 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/standarduser/Source/Repos/Queryabl/Queryabl",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Queryabl.DataCalc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Queryabl.DataCalc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "docs/Queryabl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/Queryabl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
