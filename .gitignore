@@ -1,5 +1,4 @@
 nuget.exe
-nuget*.exe
 nuget.config
 *.exe
 *.nuspec
@@ -12,6 +11,9 @@ nuget.config
 *.old
 *.css
 *.js
+/bin/Release
+/lib/
+/Releases/
 /obj
 /docs
 */public/*.css
@@ -20,9 +22,3 @@ nuget.config
 /styles/
 /public/
 /NuGet/
-/lib
-/obj/
-/bin/Release
-/lib/
-/Releases/
-

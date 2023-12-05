@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Queryabl</name>
+    </assembly>
+    <members>
+        <member name="T:Queryabl.DataCalc">
+            <summary>
+            Main class for extended functionality.
+            Includes implementation of linq fluent clauses for "Where", "Select" 
+            with relevent customizations.
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.FilterNumerics``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.CollEvenLength``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.CollEvenLength``1(System.Linq.IQueryable{System.Collections.Generic.IEnumerable{``0}})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.FreqObjsOccur``1(System.Linq.IQueryable{``0})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.FreqOccur``1(System.Linq.IQueryable{``0})" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:Queryabl.DataCalc.SelectIntMatrix(System.Linq.IQueryable{System.String},System.Func{System.String,System.Boolean}[])" -->
+        <member name="M:Queryabl.DataCalc.To2DArray``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            Transforms 1-dimensional array input to it's 2-dimensional counterpart
+            based on prespecified parameters rows/columns.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="flatArray">Input 1-dimensional array of N length.</param>
+            <param name="rows">Number of rows N to be exported.</param>
+            <param name="columns">Number of columns N to be exported.</param>
+            <returns>A 2-dimensional array of the specified data type that is of the prespecified rows-columns size.</returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.ConvertTo2Dim(System.Linq.IQueryable{System.String},System.Int32,System.Int32)">
+            <summary>
+            Transforms from an IQueryable of strings to it's 2-dimensional matrix of integers counterpart
+            based on prespecified parameters rows/columns.
+            </summary>
+            <param name="source">Input data source of IQueryable of enumerations</param>
+            <param name="rows">Number of rows N to be exported.</param>
+            <param name="columns">Number of columns N to be exported.</param>
+            <returns>A 2-dimensional array of integer data type that is of the prespecified rows-columns size.</returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.Select``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            Source Implementation for custom "Select()"
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.Where``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            Source Implementation for custom "Where()"
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <param name="source"></param>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.IsNumericType``1(``0)">
+            <summary>
+            Method for filtering data by their corresponding data type.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value">The type of data to be processed as numeric.</param>
+            <returns>True or False depending on whether the input data type is of any number.</returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.OddOrEven``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Method for filtering enumerations based on odd/even length of an IEnumerable.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="elements">Input data type of IEnumerable sequence of elements</param>
+            <returns>True or False depending on whether the data length of input data sequence is of even length or not.</returns>
+        </member>
+        <member name="M:Queryabl.DataCalc.HammingDist(System.String,System.String)">
+            <summary>
+            Method for returing hamming-distance between two input strings (left and right).
+            </summary>
+            <param name="leftStr">The leftmost string part to compare with</param>
+            <param name="rightStr">The rightmost string part to compare against</param>
+            <returns>The total bit count difference between leftmost and rightmost input string parts.</returns>
+        </member>
+    </members>
+</doc>

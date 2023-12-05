@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>Queryabl.DataCalc</PackageId>
+    <Version>1.9.16</Version>
+    <Authors>Chr dk.</Authors>
+    <Product>Queryabl.DataCalc</Product>
+    <Copyright>2023</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="deployment.bat" />
+    <None Remove="docfx.json" />
+    <None Remove="queryabl_datacalc_main.png" />
+    <None Remove="search-stopwords.json" />
+    <None Remove="xrefmap.yml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DataCalc.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <!-- Xcopy  usage for packaging , using  ..\NuGet\ as default dir -->
+  <!-- PostBuilds disabled temporarily on review
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="
+      if $(ConfigurationName) == Debug (
+      nuget pack .\$(ProjectName).nuspec
+      xcopy .\$(PackageId).1.0.3.21.nupkg $(SolutionDir)NuGet\ /C /Y
+      docfx metadata ./docfx.json
+      docfx build ./docfx.json
+      )else ( cmd /c echo *****NOTE: Need to run only on Debug, Switch from Release to Debug***** )" />
+  </Target>-->
+
+  <!-- <ItemGroup>
+    <Reference Include="System.ValueTuple">
+      <HintPath>bin\Debug\System.ValueTuple.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\AssemblyInfo.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>-->
+</Project>
