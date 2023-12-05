@@ -20,7 +20,7 @@
     },
     "template": ["default","modern"],
     "content": [{
-      "files": [ "docs/*.yml" ]
+      "files": [ "docs/Queryabl.DataCalc/*.yml" ]
     }],
    "resource": [{ "files": ["docs/res/*.md"] }]
  }
