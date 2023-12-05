@@ -11,7 +11,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br/>
-The IQueryable port alternative of LinqDataCalc.
+__**The IQueryable port alternative of LinqDataCalc.**__
 <br/>
 <br/>
 <br/>
@@ -23,14 +23,16 @@ Most parts of the re-written source are meant to provide a more fluent linq-like
 
 <div align="center">
 
-Methods Ported displayed in table below:
+Methods Ported to IQueryable syntax displayed in table below:
 
-➡️ 
+<br>
 
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-|AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  |
-|                 | |
+| AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  | functional __-example only-__ of filtering numbers based on type, preferable to use standard Linq filters |
+|   |   |   |
+| OddOrEven()➡️ | CollEvenLength()  | size-specific collection filter |
+
 
 </div>
 
