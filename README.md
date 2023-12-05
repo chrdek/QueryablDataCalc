@@ -1,4 +1,4 @@
-### Queryabl.DataCalc package (nuget)
+### Queryabl.DataCalc (package)
 
 |  Review  |
 |:------------:|
@@ -11,11 +11,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <br/>
-Create folder structures using Linq
+The IQueryable port alternative of LinqDataCalc.
 <br/>
 <br/>
 <br/>
-The IQueryable port alternative of LinqDataCalc. 
+
 
 Most parts of the re-written source are meant to provide a more fluent linq-like syntax alternative for some methods in the original LinqDataCalc with some examples.
 
