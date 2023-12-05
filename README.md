@@ -24,7 +24,7 @@ Most parts of the re-written source are meant to provide a more fluent linq-like
 
 <div align="center">
 
-Methods Ported to IQueryable syntax displayed in table below:
+Previous/New methods Ported to IQueryable syntax displayed in table below:
 
 <br>
 
