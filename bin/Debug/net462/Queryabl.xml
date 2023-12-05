@@ -99,12 +99,11 @@
             </code>
             </example>
         </member>
-        <member name="M:Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)">
+        <member name="M:Queryabl.DataCalc.WhereDist(System.Linq.IQueryable{System.String},System.String,System.Int32)">
              <summary>
              Retrieves a Queryable of string based on IEnumerable of string data types that equal
              to a current hamming value of N and input type str2 that are checked against.
              </summary>
-             <typeparam name="T"></typeparam>
              <param name="str1">The leftmost string part to compare with</param>
              <param name="str2">The rightmost string part to compare against</param>
              <param name="distCheck">The hamming value to check per string comparison</param>
@@ -115,9 +114,9 @@
              IQueryable<string></string> hamCheckStr = new List<string></string>{"test1","test2","test3","test2","10times49","20times46","times"}.AsQueryable();
              var sourceStrings = new List<string></string> { "abc", "def", "xyz" }.AsQueryable();
             
-             sourceStrings.WhereDist<string></string>("abg",1);
-             sourceStrings.WhereDist<string></string>("aee",2);
-             hamCheckStr.WhereDist<string></string>("test3",1); // all return the appropriate filtered queryable search results.
+             sourceStrings.WhereDist("abg",1);
+             sourceStrings.WhereDist("aee",2);
+             hamCheckStr.WhereDist("test3",1); // all return the appropriate filtered queryable search results.
              </code>
              </example>
         </member>

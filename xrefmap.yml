@@ -143,6 +143,15 @@ references:
   isSpec: "True"
   fullName: Queryabl.DataCalc.Where
   nameWithType: DataCalc.Where
+- uid: Queryabl.DataCalc.WhereDist(System.Linq.IQueryable{System.String},System.String,System.Int32)
+  name: WhereDist(IQueryable<string>, string, int)
+  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_WhereDist_System_Linq_IQueryable_System_String__System_String_System_Int32_
+  commentId: M:Queryabl.DataCalc.WhereDist(System.Linq.IQueryable{System.String},System.String,System.Int32)
+  name.vb: WhereDist(IQueryable(Of String), String, Integer)
+  fullName: Queryabl.DataCalc.WhereDist(System.Linq.IQueryable<string>, string, int)
+  fullName.vb: Queryabl.DataCalc.WhereDist(System.Linq.IQueryable(Of String), String, Integer)
+  nameWithType: DataCalc.WhereDist(IQueryable<string>, string, int)
+  nameWithType.vb: DataCalc.WhereDist(IQueryable(Of String), String, Integer)
 - uid: Queryabl.DataCalc.WhereDist*
   name: WhereDist
   href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_WhereDist_
@@ -150,15 +159,6 @@ references:
   isSpec: "True"
   fullName: Queryabl.DataCalc.WhereDist
   nameWithType: DataCalc.WhereDist
-- uid: Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)
-  name: WhereDist<T>(IQueryable<string>, string, int)
-  href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_WhereDist__1_System_Linq_IQueryable_System_String__System_String_System_Int32_
-  commentId: M:Queryabl.DataCalc.WhereDist``1(System.Linq.IQueryable{System.String},System.String,System.Int32)
-  name.vb: WhereDist(Of T)(IQueryable(Of String), String, Integer)
-  fullName: Queryabl.DataCalc.WhereDist<T>(System.Linq.IQueryable<string>, string, int)
-  fullName.vb: Queryabl.DataCalc.WhereDist(Of T)(System.Linq.IQueryable(Of String), String, Integer)
-  nameWithType: DataCalc.WhereDist<T>(IQueryable<string>, string, int)
-  nameWithType.vb: DataCalc.WhereDist(Of T)(IQueryable(Of String), String, Integer)
 - uid: Queryabl.DataCalc.Where``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})
   name: Where<TSource>(IQueryable<TSource>, Expression<Func<TSource, bool>>)
   href: docs/Queryabl.DataCalc.html#Queryabl_DataCalc_Where__1_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0_System_Boolean___
