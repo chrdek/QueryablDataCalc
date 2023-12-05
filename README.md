@@ -5,7 +5,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/9450c471020d498a9f0e10616855fcf6)](https://app.codacy.com/gh/chrdek/QueryablDataCalc/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) |
 | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=chrdek_QueryablDataCalc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=chrdek_QueryablDataCalc) |
 | [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=chrdek_QueryablDataCalc&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=chrdek_QueryablDataCalc) |
-| ![Nuget](https://img.shields.io/nuget/dt/Queryabl.DataCalc?logo=nuget) |
+|  ![Nuget](https://img.shields.io/nuget/dt/Queryabl.DataCalc?logo=nuget) |
 | [🌐 Global Status](https://status.nuget.org/) |
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
