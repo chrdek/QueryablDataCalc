@@ -29,8 +29,8 @@ Methods Ported displayed in table below:
 
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-|AsNumericTuples()↗️ | FilterNumerics()<br> FilterNumerics(predicate)  |
-|                ↘️ | |
+|AsNumericTuples()↗️ <br> ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  |
+|                 | |
 
 </div>
 
