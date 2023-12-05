@@ -10,8 +10,14 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<br/>
-__**The IQueryable port alternative of LinqDataCalc.**__
+<br>
+
+<br>
+
+<hr>
+
+__The IQueryable port alternative of LinqDataCalc.__
+
 <br/>
 <br/>
 <br/>
@@ -29,9 +35,9 @@ Methods Ported to IQueryable syntax displayed in table below:
 
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-| AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  | functional __-example only-__ of filtering numbers based on type, preferable to use standard Linq filters |
+| AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  |  __example only__ of funct. filtered numerics, use 'where', 'select' clauses instead |
 |   |   |   |
-| OddOrEven()➡️ | CollEvenLength()  | size-specific collection filter |
+| OddOrEven()&nbsp;&nbsp; ➡️ | CollEvenLength()  | size-specific collection filter |
 
 
 </div>
