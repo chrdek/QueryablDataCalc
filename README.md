@@ -39,7 +39,7 @@ Methods Ported to IQueryable syntax displayed in table below:
 |   |   |   |
 | OddOrEven()&nbsp;&nbsp; ➡️ | CollEvenLength()  | size-specific collection filters |
 |   |   |   |
-| HammingDist()&nbsp;&nbsp; ➡️ | WhereDist()  | hamming-distance collection filter  using 'Where' clause|
+| HammingDist() ➡️ | WhereDist()  | hamming-distance collection filter  using 'Where' clause|
 |   |   |   |
 
 </div>
