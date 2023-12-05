@@ -29,7 +29,7 @@ Methods Ported displayed in table below:
 
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-|AsNumericTuples()↗️ | FilterNumerics() FilterNumerics(predicate)  |
+|AsNumericTuples()↗️ | FilterNumerics()<br> FilterNumerics(predicate)  |
 |                ↘️ | |
 
 </div>
