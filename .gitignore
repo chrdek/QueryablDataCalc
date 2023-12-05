@@ -9,9 +9,12 @@ nuget.config
 *.config
 *.bat
 *.old
+*.json
+*.yml
 *.css
 *.js
 /bin/Release
+/bin/Debug
 /lib/
 /Releases/
 /obj
