@@ -138,7 +138,6 @@ namespace Queryabl
         /// Retrieves a Queryable of string based on IEnumerable of string data types that equal
         /// to a current hamming value of N and input type str2 that are checked against.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
         /// <param name="str1">The leftmost string part to compare with</param>
         /// <param name="str2">The rightmost string part to compare against</param>
         /// <param name="distCheck">The hamming value to check per string comparison</param>
@@ -296,7 +295,7 @@ namespace Queryabl
                 Expression<Func<string, int[,]>> transfMap = str => ConvertTo2Dim(new[] { str }.AsQueryable(),
 
                 (int)Char.GetNumericValue(str.Length.ToString()[0]),
-                (int)(str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0])
+                (str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0])
                 );
 
                 //default filtering part, returns full set of values as 2dim array nxm
@@ -358,7 +357,7 @@ namespace Queryabl
                 Expression<Func<string, int[,]>> transfMap = str => ConvertTo2Dim(new[] { str }.AsQueryable(),
 
                 (int)Char.GetNumericValue(str.Length.ToString()[0]),
-                (int)(str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0])
+                (str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0])
                 );
 
 
@@ -377,7 +376,7 @@ namespace Queryabl
                 .Select((_, index) => char.IsDigit(str[index]) ? (int)char.GetNumericValue(str[index]) : 0)
                 .ToArray()
                 .To2DArray(1, str.Length)
-                : ConvertTo2Dim(new[] { str }.AsQueryable(), (int)Char.GetNumericValue(str.Length.ToString()[0]), (int)(str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0]));
+                : ConvertTo2Dim(new[] { str }.AsQueryable(), (int)Char.GetNumericValue(str.Length.ToString()[0]), (str.Length) / (int)Char.GetNumericValue(str.Length.ToString()[0]));
 
                 var executedSource = source.Select(changeStr);
                 var resultArrays = executedSource.Select(transfMap.Compile());
