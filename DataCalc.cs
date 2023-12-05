@@ -149,12 +149,12 @@ namespace Queryabl
         /// IQueryable<string></string> hamCheckStr = new List<string></string>{"test1","test2","test3","test2","10times49","20times46","times"}.AsQueryable();
         /// var sourceStrings = new List<string></string> { "abc", "def", "xyz" }.AsQueryable();
         ///
-        /// sourceStrings.WhereDist<string></string>("abg",1);
-        /// sourceStrings.WhereDist<string></string>("aee",2);
-        /// hamCheckStr.WhereDist<string></string>("test3",1); // all return the appropriate filtered queryable search results.
+        /// sourceStrings.WhereDist("abg",1);
+        /// sourceStrings.WhereDist("aee",2);
+        /// hamCheckStr.WhereDist("test3",1); // all return the appropriate filtered queryable search results.
         /// </code>
         /// </example>
-        public static IQueryable<string> WhereDist<T>(this IQueryable<string> str1, string str2, int distCheck)
+        public static IQueryable<string> WhereDist(this IQueryable<string> str1, string str2, int distCheck)
         {
 
             Expression<Func<string, bool>> distFilter = s1 => HammingDist(s1, str2) == distCheck;
@@ -281,7 +281,7 @@ namespace Queryabl
         public static IQueryable<int[,]> SelectIntMatrix(this IQueryable<string> source, int defaultLen = 0)
         {
 
-            Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "");
+            Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "",RegexOptions.None,TimeSpan.FromSeconds(25));
             //preset filter for default values equality
             Func<int, int> toUnsigned = (len) => len < 0 ? (-len) : len;
             int limitInt = toUnsigned(defaultLen);
@@ -354,7 +354,7 @@ namespace Queryabl
             if (conditions.Length == 0)
             {
                 //checks for nulls etc prior to cleaning processed data..
-                Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "");
+                Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "",RegexOptions.None,TimeSpan.FromSeconds(25));
                 Expression<Func<string, int[,]>> transfMap = str => ConvertTo2Dim(new[] { str }.AsQueryable(),
 
                 (int)Char.GetNumericValue(str.Length.ToString()[0]),
@@ -369,7 +369,7 @@ namespace Queryabl
             }
             else
             { //project the selected items per length into 1-dim counterpart..
-                Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "");
+                Expression<Func<string, string>> changeStr = strEl => Regex.Replace(string.IsNullOrEmpty(strEl) ? "0" : strEl, @"^\D$", "",RegexOptions.None,TimeSpan.FromSeconds(25));
 
                 Expression<Func<string, int[,]>> transfMap = str => (conditions.Any(condition => condition(str))) ?
                 new int[1, str.Length]
