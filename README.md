@@ -1,4 +1,4 @@
-### LINQ to path (package)
+### Queryabl.DataCalc package (nuget)
 
 |  Review  |
 |:------------:|
@@ -15,7 +15,23 @@ Create folder structures using Linq
 <br/>
 <br/>
 <br/>
-This nuget package is used to create various folder layouts for your C# applications/projects.
+The IQueryable port alternative of LinqDataCalc. 
+
+Most parts of the re-written source are meant to provide a more fluent linq-like syntax alternative for some methods in the original LinqDataCalc with some examples.
+
+<br/>
+
+<div align="center">
+
+Methods Ported displayed in table below:
+
+|  Method  | Implemented As | Usage |
+|:------------:|:------------:|:------------:|
+|AsNumericTuples()↗️ | FilterNumerics() |
+|               ➡️  ↘️ | FilterNumerics(predicate) |
+
+</div>
+
 
 Online project located at [nuget gallery.](https://www.nuget.org/packages/LinqPath/)
 
