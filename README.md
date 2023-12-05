@@ -35,7 +35,7 @@ Methods Ported to IQueryable syntax displayed in table below:
 
 |  Method  | Implemented As | Usage |
 |:------------:|:------------:|:------------:|
-| AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  |  __example only__ of funct. filtered numerics, use 'where', 'select' clauses instead |
+| AsNumericTuples()↗️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ↘️ | FilterNumerics()<br> FilterNumerics(predicate)  |  __example only__ of funct. filtered numerics, use 'where', 'select' clauses instead |
 |   |   |   |
 | OddOrEven()&nbsp;&nbsp; ➡️ | CollEvenLength()  | size-specific collection filter |
 
