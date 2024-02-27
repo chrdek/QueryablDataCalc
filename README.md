@@ -10,7 +10,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-
+ 
 <hr>
 
 __The IQueryable port alternative of LinqDataCalc.__
