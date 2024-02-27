@@ -46,3 +46,4 @@ Previous/New methods Ported to IQueryable syntax displayed in table below:
 
 Online project located at [nuget gallery.](https://www.nuget.org/packages/Queryabl.DataCalc/)
 
+Further usage and instructions in the [online documentation site.](https://chrdek.github.io/docs/Queryabl.DataCalc/Queryabl.DataCalc.html)
