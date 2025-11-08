@@ -43,7 +43,16 @@ jobs:
         shell: powershell
         run: |
           dotnet tool install --global dotnet-coverage --version 17.6.4 
-          ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"chrdek_QueryablDataCalc" /o:"chrdek" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
+
+          & "${{ runner.temp }}\scanner\dotnet-sonarscanner" begin `
+            /k:"chrdek_QueryablDataCalc" `
+            /o:"chrdek" `
+            /d:sonar.login="$env:SONAR_TOKEN" `
+            /d:sonar.host.url="https://sonarcloud.io"
+
+          # restore and build the solution (build the .sln to avoid missing project-path issues)
           dotnet restore ./Queryabl.sln
-          dotnet build .\Queryabl.csproj /t:Rebuild /p:Configuration=Debug
-          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.token="${{ secrets.SONAR_TOKEN }}"
+          dotnet build ./Queryabl.sln /t:Rebuild /p:Configuration=Debug
+
+          # use the same scanner executable for end
+          & "${{ runner.temp }}\scanner\dotnet-sonarscanner" end /d:sonar.login="$env:SONAR_TOKEN"
